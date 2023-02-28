@@ -1,0 +1,124 @@
+Selector {
+    property: value;
+}*/ 
+h2{
+    color: #b4e0e3;
+}
+body {
+  background-image: url("Key Art I just wanna D png o my Job Version 3..png");
+  font-family: "Roboto Regular";
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto; 
+  padding: 15px;
+  outline: 1px solid #b4e0e3 ;
+ 
+}
+a
+{
+ 
+  color: #b4e0e3;
+}
+.primary-nav {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  outline: 1px solid  #b4e0e3;
+}
+
+.primary-nav ul {
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.primary-nav ul li {
+ padding: 8px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  text-decoration: none;
+}
+
+a.brand:link, a.brand:visited, a.brand:hover, a.brand:active  {
+  color: #fff8f8;
+}
+ 
+img {
+  background-image: url "Key Art I just wanna Do my Job Version 3.png"; 
+  background: size 500px; ;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  
+   
+  }
+
+ img h2 {
+  color: #b4e0e3;
+  width: 100%;
+  font-size: 55px;
+  text-align: right;
+  padding-right: 15px;
+  background: (#eee);
+
+}
+.img .img-overlay {
+ background: linear-gradient()  
+}
+.skills-content {
+  display: flex; 
+}
+
+.skills-content ul {
+  flex: 1;
+}
+
+section {
+  outline: 1px solid ;
+}
+
+/*
+ Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #b4e0e3; 
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color:#b4e0e3; 
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: wheat; 
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color:  #b4e0e3; 
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color:
+     #b4e0e3
+  }
+}
